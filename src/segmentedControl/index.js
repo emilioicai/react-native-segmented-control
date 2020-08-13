@@ -160,7 +160,7 @@ SegmentedControl.propTypes = {
   textStyle: PropTypes.object,
   isRTL: PropTypes.bool,
   theme: PropTypes.oneOf(['LIGHT', 'DARK']),
-  shadowStyle: ShadowPropTypesIOS
+  shadowStyle: PropTypes.object
 }
 
 
